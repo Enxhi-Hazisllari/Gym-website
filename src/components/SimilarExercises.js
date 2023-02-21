@@ -6,4 +6,4 @@ const SimilarExercises = () => {
   )
 }
 
-export default SimilarExercises
+export default SimilarExercises;
