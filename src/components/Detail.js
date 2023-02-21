@@ -2,9 +2,11 @@ import React from 'react';
 import BodyPartImage from '../assets/icons/body-part.png';
 import TargetImage from '../assets/icons/target.png';
 import EquipmentImage from '../assets/icons/equipment.png';
+import { Button, Stack, Typography } from '@mui/material';
+
 const Detail = ({ exerciseDetail }) => {
 
-    const {bodyPart, gifUrl, name, equipment} = exerciseDetail;
+    const {bodyPart, gifUrl, name, target, equipment} = exerciseDetail;
     
     const extraDetail = [
         {
